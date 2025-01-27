@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-card">
+            <h1 class="city-name">New York</h1>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search city..." id="city-input">
+                <button id="search-btn">Search</button>
+            </div>
+            
+            <div class="weather-icon">
+                <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon" class="img">
+            </div>
+            <div class="temperature">
+                <h2 class="temp">24°C</h2>
+            </div>
+            <div class="weather-description">
+                <p class="text" >Clear sky</p>
+            </div>
+            <div class="additional-info">
+                <p  class="humidity" >Humidity: 50%</p>
+                <p class="wind" >Wind: 10 km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
